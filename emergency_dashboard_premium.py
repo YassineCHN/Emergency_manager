@@ -112,7 +112,7 @@ st.set_page_config(
 )
 
 # Injection CSS V3
-st.markdown(get_premium_css_v3(), unsafe_allow_html=True)
+st.markdown(get_premium_css(), unsafe_allow_html=True)
 
 # ========== SESSION STATE ==========
 
