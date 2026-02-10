@@ -34,8 +34,8 @@ from mcp.controllers.emergency_controller import EmergencyController
 from rag.engine import HospitalRAGEngine
 
 # Imports composants V2 (réutilisés)
-from premium_styles import get_premium_css
-from dashboard_components import (
+from interface.premium_styles import get_premium_css
+from interface.dashboard_components import (
     render_hero_zone,
     render_critical_situation_zone,
     render_kpi_secondary,
@@ -49,8 +49,8 @@ from dashboard_components import (
 )
 
 # Imports composants chatbot
-from chatbot_component import render_chatbot_premium, initialize_chatbot
-from chatbot_panel_minimal import render_chat_panel_minimal
+from interface.chatbot_component import render_chatbot_premium, initialize_chatbot
+from interface.chatbot_panel_minimal import render_chat_panel_minimal
 
 import json as json_module
 
