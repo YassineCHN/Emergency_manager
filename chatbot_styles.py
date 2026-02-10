@@ -6,7 +6,7 @@ Couleurs : Bleu médical (#0066CC), pas de couleurs sombres
 """
 
 
-def get_chatbot_styles_v2():
+def get_chatbot_styles():
     """
     Styles CSS pour le chatbot compatibles avec premium_styles_v2.py
 

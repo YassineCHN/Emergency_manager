@@ -6,7 +6,7 @@ Chatbot IA intégré avec design premium pour le dashboard V2
 
 import streamlit as st
 from typing import Optional, Dict, Any, List
-from chatbot_styles_v2 import get_chatbot_styles_v2
+from chatbot_styles import get_chatbot_styles
 
 
 def render_chatbot_premium(
@@ -17,7 +17,7 @@ def render_chatbot_premium(
     """
 
     # ========== STYLES ==========
-    st.markdown(get_chatbot_styles_v2(), unsafe_allow_html=True)
+    st.markdown(get_chatbot_styles(), unsafe_allow_html=True)
 
     # ✨ CSS COMPLET pour enlever le fond noir
     st.markdown(
