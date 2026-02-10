@@ -6,7 +6,7 @@ Chatbot IA intégré avec design premium pour le dashboard V2
 
 import streamlit as st
 from typing import Optional, Dict, Any, List
-from chatbot_styles import get_chatbot_styles
+from interface.chatbot_styles import get_chatbot_styles
 
 
 def render_chatbot_premium(
