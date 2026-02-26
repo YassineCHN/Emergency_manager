@@ -192,7 +192,7 @@ flowchart TB
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 ### Stack Principal
 
